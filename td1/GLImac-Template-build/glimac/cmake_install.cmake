@@ -1,4 +1,4 @@
-# Install script for directory: /home/ftorres/Documents/CG/td1/GLImac-Template/glimac
+# Install script for directory: /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

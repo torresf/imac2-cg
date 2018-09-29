@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ftorres/Documents/CG/td1/GLImac-Template
+CMAKE_SOURCE_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ftorres/Documents/CG/td1/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/td1/GLImac-Template-build/CMakeFiles /home/ftorres/Documents/CG/td1/GLImac-Template-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/td1/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -228,6 +228,19 @@ TP1_exo4_quad_ibo/fast:
 .PHONY : TP1_exo4_quad_ibo/fast
 
 #=============================================================================
+# Target rules for targets named TP2_SDLtemplate
+
+# Build rule for target.
+TP2_SDLtemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_SDLtemplate
+.PHONY : TP2_SDLtemplate
+
+# fast build rule for target.
+TP2_SDLtemplate/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+.PHONY : TP2_SDLtemplate/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -270,6 +283,7 @@ help:
 	@echo "... TP1_exo3_structure_vertex"
 	@echo "... TP1_exo4_quad"
 	@echo "... TP1_exo4_quad_ibo"
+	@echo "... TP2_SDLtemplate"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 .PHONY : help

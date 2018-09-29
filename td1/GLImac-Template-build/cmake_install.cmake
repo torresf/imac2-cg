@@ -1,4 +1,4 @@
-# Install script for directory: /home/ftorres/Documents/CG/td1/GLImac-Template
+# Install script for directory: /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ftorres/Documents/CG/td1/GLImac-Template-build/glimac/cmake_install.cmake")
-  include("/home/ftorres/Documents/CG/td1/GLImac-Template-build/TP1/cmake_install.cmake")
-  include("/home/ftorres/Documents/CG/td1/GLImac-Template-build/TP_template/cmake_install.cmake")
-  include("/home/ftorres/Documents/CG/td1/GLImac-Template-build/TPgarbage/cmake_install.cmake")
+  include("/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/glimac/cmake_install.cmake")
+  include("/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP1/cmake_install.cmake")
+  include("/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/cmake_install.cmake")
+  include("/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP_template/cmake_install.cmake")
+  include("/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ftorres/Documents/CG/td1/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
