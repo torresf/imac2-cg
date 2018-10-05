@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP2/CMakeFiles/TP2_exo2_shader.dir/rule:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+
+# Convenience name for target.
+TP2_exo2_shader: TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+
+.PHONY : TP2_exo2_shader
+
+# fast build rule for target.
+TP2_exo2_shader/fast:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/build
+.PHONY : TP2_exo2_shader/fast
+
+# Convenience name for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
 	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
@@ -124,6 +139,21 @@ TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 TP2_SDLtemplate/fast:
 	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
 .PHONY : TP2_SDLtemplate/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo1_shader.dir/rule:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_shader.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo1_shader.dir/rule
+
+# Convenience name for target.
+TP2_exo1_shader: TP2/CMakeFiles/TP2_exo1_shader.dir/rule
+
+.PHONY : TP2_exo1_shader
+
+# fast build rule for target.
+TP2_exo1_shader/fast:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
+.PHONY : TP2_exo1_shader/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
 
@@ -152,6 +182,60 @@ SDLtemplate.cpp.s:
 	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
+exo1_shader.o: exo1_shader.cpp.o
+
+.PHONY : exo1_shader.o
+
+# target to build an object file
+exo1_shader.cpp.o:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.o
+.PHONY : exo1_shader.cpp.o
+
+exo1_shader.i: exo1_shader.cpp.i
+
+.PHONY : exo1_shader.i
+
+# target to preprocess a source file
+exo1_shader.cpp.i:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.i
+.PHONY : exo1_shader.cpp.i
+
+exo1_shader.s: exo1_shader.cpp.s
+
+.PHONY : exo1_shader.s
+
+# target to generate assembly for a file
+exo1_shader.cpp.s:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.s
+.PHONY : exo1_shader.cpp.s
+
+exo2_shader.o: exo2_shader.cpp.o
+
+.PHONY : exo2_shader.o
+
+# target to build an object file
+exo2_shader.cpp.o:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.o
+.PHONY : exo2_shader.cpp.o
+
+exo2_shader.i: exo2_shader.cpp.i
+
+.PHONY : exo2_shader.i
+
+# target to preprocess a source file
+exo2_shader.cpp.i:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.i
+.PHONY : exo2_shader.cpp.i
+
+exo2_shader.s: exo2_shader.cpp.s
+
+.PHONY : exo2_shader.s
+
+# target to generate assembly for a file
+exo2_shader.cpp.s:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.s
+.PHONY : exo2_shader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,11 +243,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP2_SDLtemplate"
 	@echo "... edit_cache"
+	@echo "... TP2_exo2_shader"
+	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo1_shader"
 	@echo "... SDLtemplate.o"
 	@echo "... SDLtemplate.i"
 	@echo "... SDLtemplate.s"
+	@echo "... exo1_shader.o"
+	@echo "... exo1_shader.i"
+	@echo "... exo1_shader.s"
+	@echo "... exo2_shader.o"
+	@echo "... exo2_shader.i"
+	@echo "... exo2_shader.s"
 .PHONY : help
 
 

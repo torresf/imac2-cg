@@ -228,6 +228,19 @@ TP1_exo4_quad_ibo/fast:
 .PHONY : TP1_exo4_quad_ibo/fast
 
 #=============================================================================
+# Target rules for targets named TP2_exo2_shader
+
+# Build rule for target.
+TP2_exo2_shader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo2_shader
+.PHONY : TP2_exo2_shader
+
+# fast build rule for target.
+TP2_exo2_shader/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/build
+.PHONY : TP2_exo2_shader/fast
+
+#=============================================================================
 # Target rules for targets named TP2_SDLtemplate
 
 # Build rule for target.
@@ -239,6 +252,19 @@ TP2_SDLtemplate: cmake_check_build_system
 TP2_SDLtemplate/fast:
 	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
 .PHONY : TP2_SDLtemplate/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exo1_shader
+
+# Build rule for target.
+TP2_exo1_shader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo1_shader
+.PHONY : TP2_exo1_shader
+
+# fast build rule for target.
+TP2_exo1_shader/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
+.PHONY : TP2_exo1_shader/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -283,7 +309,9 @@ help:
 	@echo "... TP1_exo3_structure_vertex"
 	@echo "... TP1_exo4_quad"
 	@echo "... TP1_exo4_quad_ibo"
+	@echo "... TP2_exo2_shader"
 	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo1_shader"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 .PHONY : help
