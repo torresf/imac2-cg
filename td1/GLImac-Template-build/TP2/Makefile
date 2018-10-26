@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP2/CMakeFiles/TP2_fromscratch.dir/rule:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_fromscratch.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_fromscratch.dir/rule
+
+# Convenience name for target.
+TP2_fromscratch: TP2/CMakeFiles/TP2_fromscratch.dir/rule
+
+.PHONY : TP2_fromscratch
+
+# fast build rule for target.
+TP2_fromscratch/fast:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
+.PHONY : TP2_fromscratch/fast
+
+# Convenience name for target.
 TP2/CMakeFiles/TP2_exo2_shader.dir/rule:
 	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_shader.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo2_shader.dir/rule
@@ -236,6 +251,33 @@ exo2_shader.cpp.s:
 	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.s
 .PHONY : exo2_shader.cpp.s
 
+fromscratch.o: fromscratch.cpp.o
+
+.PHONY : fromscratch.o
+
+# target to build an object file
+fromscratch.cpp.o:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.o
+.PHONY : fromscratch.cpp.o
+
+fromscratch.i: fromscratch.cpp.i
+
+.PHONY : fromscratch.i
+
+# target to preprocess a source file
+fromscratch.cpp.i:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.i
+.PHONY : fromscratch.cpp.i
+
+fromscratch.s: fromscratch.cpp.s
+
+.PHONY : fromscratch.s
+
+# target to generate assembly for a file
+fromscratch.cpp.s:
+	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.s
+.PHONY : fromscratch.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,6 +285,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... TP2_fromscratch"
 	@echo "... edit_cache"
 	@echo "... TP2_exo2_shader"
 	@echo "... TP2_SDLtemplate"
@@ -256,6 +299,9 @@ help:
 	@echo "... exo2_shader.o"
 	@echo "... exo2_shader.i"
 	@echo "... exo2_shader.s"
+	@echo "... fromscratch.o"
+	@echo "... fromscratch.i"
+	@echo "... fromscratch.s"
 .PHONY : help
 
 

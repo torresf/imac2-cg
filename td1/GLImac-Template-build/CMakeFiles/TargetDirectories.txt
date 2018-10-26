@@ -14,6 +14,7 @@
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad.dir
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad_ibo.dir
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/rebuild_cache.dir
+/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_fromscratch.dir
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/edit_cache.dir
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_exo2_shader.dir
 /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_SDLtemplate.dir

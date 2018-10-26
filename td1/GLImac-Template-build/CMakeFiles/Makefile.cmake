@@ -70,6 +70,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/DependInfo.cmake"
   "TP1/CMakeFiles/TP1_exo4_quad.dir/DependInfo.cmake"
   "TP1/CMakeFiles/TP1_exo4_quad_ibo.dir/DependInfo.cmake"
+  "TP2/CMakeFiles/TP2_fromscratch.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo2_shader.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo1_shader.dir/DependInfo.cmake"

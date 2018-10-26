@@ -228,6 +228,19 @@ TP1_exo4_quad_ibo/fast:
 .PHONY : TP1_exo4_quad_ibo/fast
 
 #=============================================================================
+# Target rules for targets named TP2_fromscratch
+
+# Build rule for target.
+TP2_fromscratch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_fromscratch
+.PHONY : TP2_fromscratch
+
+# fast build rule for target.
+TP2_fromscratch/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
+.PHONY : TP2_fromscratch/fast
+
+#=============================================================================
 # Target rules for targets named TP2_exo2_shader
 
 # Build rule for target.
@@ -309,6 +322,7 @@ help:
 	@echo "... TP1_exo3_structure_vertex"
 	@echo "... TP1_exo4_quad"
 	@echo "... TP1_exo4_quad_ibo"
+	@echo "... TP2_fromscratch"
 	@echo "... TP2_exo2_shader"
 	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo1_shader"
