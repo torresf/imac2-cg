@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TP1/exo3_structure_vertex.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP1/exo3_structure_vertex.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h

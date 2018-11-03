@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Cone.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Geometry.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Image.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Program.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/SDLWindowManager.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Shader.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Sphere.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
-  "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.cpp" "/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Cone.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Geometry.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Image.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Program.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/SDLWindowManager.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Shader.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Sphere.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.cpp" "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

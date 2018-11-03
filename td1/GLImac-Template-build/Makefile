@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template
+CMAKE_SOURCE_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -228,17 +228,17 @@ TP1_exo4_quad_ibo/fast:
 .PHONY : TP1_exo4_quad_ibo/fast
 
 #=============================================================================
-# Target rules for targets named TP2_fromscratch
+# Target rules for targets named TP2_exo1_shader
 
 # Build rule for target.
-TP2_fromscratch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_fromscratch
-.PHONY : TP2_fromscratch
+TP2_exo1_shader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo1_shader
+.PHONY : TP2_exo1_shader
 
 # fast build rule for target.
-TP2_fromscratch/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
-.PHONY : TP2_fromscratch/fast
+TP2_exo1_shader/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
+.PHONY : TP2_exo1_shader/fast
 
 #=============================================================================
 # Target rules for targets named TP2_exo2_shader
@@ -254,6 +254,19 @@ TP2_exo2_shader/fast:
 .PHONY : TP2_exo2_shader/fast
 
 #=============================================================================
+# Target rules for targets named TP2_exo4_matrices
+
+# Build rule for target.
+TP2_exo4_matrices: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo4_matrices
+.PHONY : TP2_exo4_matrices
+
+# fast build rule for target.
+TP2_exo4_matrices/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo4_matrices.dir/build.make TP2/CMakeFiles/TP2_exo4_matrices.dir/build
+.PHONY : TP2_exo4_matrices/fast
+
+#=============================================================================
 # Target rules for targets named TP2_SDLtemplate
 
 # Build rule for target.
@@ -267,17 +280,30 @@ TP2_SDLtemplate/fast:
 .PHONY : TP2_SDLtemplate/fast
 
 #=============================================================================
-# Target rules for targets named TP2_exo1_shader
+# Target rules for targets named TP2_exo5_textures
 
 # Build rule for target.
-TP2_exo1_shader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo1_shader
-.PHONY : TP2_exo1_shader
+TP2_exo5_textures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo5_textures
+.PHONY : TP2_exo5_textures
 
 # fast build rule for target.
-TP2_exo1_shader/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
-.PHONY : TP2_exo1_shader/fast
+TP2_exo5_textures/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo5_textures.dir/build.make TP2/CMakeFiles/TP2_exo5_textures.dir/build
+.PHONY : TP2_exo5_textures/fast
+
+#=============================================================================
+# Target rules for targets named TP2_fromscratch
+
+# Build rule for target.
+TP2_fromscratch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_fromscratch
+.PHONY : TP2_fromscratch
+
+# fast build rule for target.
+TP2_fromscratch/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
+.PHONY : TP2_fromscratch/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -322,10 +348,12 @@ help:
 	@echo "... TP1_exo3_structure_vertex"
 	@echo "... TP1_exo4_quad"
 	@echo "... TP1_exo4_quad_ibo"
-	@echo "... TP2_fromscratch"
-	@echo "... TP2_exo2_shader"
-	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo1_shader"
+	@echo "... TP2_exo2_shader"
+	@echo "... TP2_exo4_matrices"
+	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo5_textures"
+	@echo "... TP2_fromscratch"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 .PHONY : help

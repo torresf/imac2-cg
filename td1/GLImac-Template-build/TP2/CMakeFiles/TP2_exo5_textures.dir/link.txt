@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP2_exo5_textures.dir/exo5_textures.cpp.o  -o TP2_exo5_textures ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lOpenGL -lGLX -lGLU -lGLEW 

@@ -1,10 +1,13 @@
 #version 330 core
 
 in vec2 vFragTexture;
+uniform vec3 uColor;
+uniform sampler2D uTexture;
 
 out vec3 fFragColor;
 
 void main() {
 	// fFragColor = vec3(vFragTexture, 1);
-	fFragColor = vec3(1, 0, 0);
+	// fFragColor = uColor;
+	fFragColor = (texture(uTexture, vFragTexture)).xyz;
 };

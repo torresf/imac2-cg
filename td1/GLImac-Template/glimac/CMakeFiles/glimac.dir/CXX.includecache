@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Cone.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Cone.cpp
 cmath
 -
 vector
@@ -14,43 +14,43 @@ vector
 iostream
 -
 glimac/common.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/common.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/common.hpp
 glimac/Cone.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Cone.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Cone.hpp
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Geometry.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Geometry.cpp
 glimac/Geometry.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Geometry.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Geometry.hpp
 tiny_obj_loader.h
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
 iostream
 -
 algorithm
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Image.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Image.cpp
 glimac/Image.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Image.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Image.hpp
 stb_image.h
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/stb_image.h
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/stb_image.h
 iostream
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Program.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Program.cpp
 glimac/Program.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Program.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Program.hpp
 stdexcept
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/SDLWindowManager.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/SDLWindowManager.cpp
 glimac/SDLWindowManager.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/SDLWindowManager.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/SDLWindowManager.hpp
 iostream
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Shader.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Shader.cpp
 glimac/Shader.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Shader.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Shader.hpp
 fstream
 -
 stdexcept
@@ -60,7 +60,7 @@ string
 sstream
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Sphere.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/Sphere.cpp
 cmath
 -
 vector
@@ -68,11 +68,11 @@ vector
 iostream
 -
 glimac/common.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/common.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/common.hpp
 glimac/Sphere.hpp
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Sphere.hpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/glimac/Sphere.hpp
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/stb_image.h
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/stb_image.h
 stdio.h
 -
 math.h
@@ -94,7 +94,7 @@ stddef.h
 stdint.h
 -
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.cpp
 cstdlib
 -
 cstring
@@ -112,9 +112,9 @@ fstream
 sstream
 -
 tiny_obj_loader.h
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/src/tiny_obj_loader.h
 string
 -
 vector

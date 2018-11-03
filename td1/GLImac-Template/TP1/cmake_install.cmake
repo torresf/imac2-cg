@@ -1,4 +1,4 @@
-# Install script for directory: /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TP1
+# Install script for directory: /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

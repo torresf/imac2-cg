@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template
+CMAKE_SOURCE_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,16 +67,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/progress.marks
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles 0
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/progress.marks
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,67 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-TP2/CMakeFiles/TP2_fromscratch.dir/rule:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_fromscratch.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_fromscratch.dir/rule
-
-# Convenience name for target.
-TP2_fromscratch: TP2/CMakeFiles/TP2_fromscratch.dir/rule
-
-.PHONY : TP2_fromscratch
-
-# fast build rule for target.
-TP2_fromscratch/fast:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
-.PHONY : TP2_fromscratch/fast
-
-# Convenience name for target.
-TP2/CMakeFiles/TP2_exo2_shader.dir/rule:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_shader.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_exo2_shader.dir/rule
-
-# Convenience name for target.
-TP2_exo2_shader: TP2/CMakeFiles/TP2_exo2_shader.dir/rule
-
-.PHONY : TP2_exo2_shader
-
-# fast build rule for target.
-TP2_exo2_shader/fast:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/build
-.PHONY : TP2_exo2_shader/fast
-
-# Convenience name for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-.PHONY : TP2_SDLtemplate
-
-# fast build rule for target.
-TP2_SDLtemplate/fast:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-.PHONY : TP2_SDLtemplate/fast
-
-# Convenience name for target.
 TP2/CMakeFiles/TP2_exo1_shader.dir/rule:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_shader.dir/rule
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_shader.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo1_shader.dir/rule
 
 # Convenience name for target.
@@ -167,8 +122,83 @@ TP2_exo1_shader: TP2/CMakeFiles/TP2_exo1_shader.dir/rule
 
 # fast build rule for target.
 TP2_exo1_shader/fast:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/build
 .PHONY : TP2_exo1_shader/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo2_shader.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+
+# Convenience name for target.
+TP2_exo2_shader: TP2/CMakeFiles/TP2_exo2_shader.dir/rule
+
+.PHONY : TP2_exo2_shader
+
+# fast build rule for target.
+TP2_exo2_shader/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/build
+.PHONY : TP2_exo2_shader/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo4_matrices.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4_matrices.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo4_matrices.dir/rule
+
+# Convenience name for target.
+TP2_exo4_matrices: TP2/CMakeFiles/TP2_exo4_matrices.dir/rule
+
+.PHONY : TP2_exo4_matrices
+
+# fast build rule for target.
+TP2_exo4_matrices/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_matrices.dir/build.make TP2/CMakeFiles/TP2_exo4_matrices.dir/build
+.PHONY : TP2_exo4_matrices/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+# Convenience name for target.
+TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+.PHONY : TP2_SDLtemplate
+
+# fast build rule for target.
+TP2_SDLtemplate/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+.PHONY : TP2_SDLtemplate/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo5_textures.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo5_textures.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo5_textures.dir/rule
+
+# Convenience name for target.
+TP2_exo5_textures: TP2/CMakeFiles/TP2_exo5_textures.dir/rule
+
+.PHONY : TP2_exo5_textures
+
+# fast build rule for target.
+TP2_exo5_textures/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_textures.dir/build.make TP2/CMakeFiles/TP2_exo5_textures.dir/build
+.PHONY : TP2_exo5_textures/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_fromscratch.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_fromscratch.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_fromscratch.dir/rule
+
+# Convenience name for target.
+TP2_fromscratch: TP2/CMakeFiles/TP2_fromscratch.dir/rule
+
+.PHONY : TP2_fromscratch
+
+# fast build rule for target.
+TP2_fromscratch/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/build
+.PHONY : TP2_fromscratch/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
 
@@ -176,7 +206,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -185,7 +215,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -194,7 +224,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exo1_shader.o: exo1_shader.cpp.o
@@ -203,7 +233,7 @@ exo1_shader.o: exo1_shader.cpp.o
 
 # target to build an object file
 exo1_shader.cpp.o:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.o
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.o
 .PHONY : exo1_shader.cpp.o
 
 exo1_shader.i: exo1_shader.cpp.i
@@ -212,7 +242,7 @@ exo1_shader.i: exo1_shader.cpp.i
 
 # target to preprocess a source file
 exo1_shader.cpp.i:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.i
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.i
 .PHONY : exo1_shader.cpp.i
 
 exo1_shader.s: exo1_shader.cpp.s
@@ -221,7 +251,7 @@ exo1_shader.s: exo1_shader.cpp.s
 
 # target to generate assembly for a file
 exo1_shader.cpp.s:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.s
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shader.dir/build.make TP2/CMakeFiles/TP2_exo1_shader.dir/exo1_shader.cpp.s
 .PHONY : exo1_shader.cpp.s
 
 exo2_shader.o: exo2_shader.cpp.o
@@ -230,7 +260,7 @@ exo2_shader.o: exo2_shader.cpp.o
 
 # target to build an object file
 exo2_shader.cpp.o:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.o
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.o
 .PHONY : exo2_shader.cpp.o
 
 exo2_shader.i: exo2_shader.cpp.i
@@ -239,7 +269,7 @@ exo2_shader.i: exo2_shader.cpp.i
 
 # target to preprocess a source file
 exo2_shader.cpp.i:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.i
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.i
 .PHONY : exo2_shader.cpp.i
 
 exo2_shader.s: exo2_shader.cpp.s
@@ -248,8 +278,62 @@ exo2_shader.s: exo2_shader.cpp.s
 
 # target to generate assembly for a file
 exo2_shader.cpp.s:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.s
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_shader.dir/build.make TP2/CMakeFiles/TP2_exo2_shader.dir/exo2_shader.cpp.s
 .PHONY : exo2_shader.cpp.s
+
+exo4_matrices.o: exo4_matrices.cpp.o
+
+.PHONY : exo4_matrices.o
+
+# target to build an object file
+exo4_matrices.cpp.o:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_matrices.dir/build.make TP2/CMakeFiles/TP2_exo4_matrices.dir/exo4_matrices.cpp.o
+.PHONY : exo4_matrices.cpp.o
+
+exo4_matrices.i: exo4_matrices.cpp.i
+
+.PHONY : exo4_matrices.i
+
+# target to preprocess a source file
+exo4_matrices.cpp.i:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_matrices.dir/build.make TP2/CMakeFiles/TP2_exo4_matrices.dir/exo4_matrices.cpp.i
+.PHONY : exo4_matrices.cpp.i
+
+exo4_matrices.s: exo4_matrices.cpp.s
+
+.PHONY : exo4_matrices.s
+
+# target to generate assembly for a file
+exo4_matrices.cpp.s:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_matrices.dir/build.make TP2/CMakeFiles/TP2_exo4_matrices.dir/exo4_matrices.cpp.s
+.PHONY : exo4_matrices.cpp.s
+
+exo5_textures.o: exo5_textures.cpp.o
+
+.PHONY : exo5_textures.o
+
+# target to build an object file
+exo5_textures.cpp.o:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_textures.dir/build.make TP2/CMakeFiles/TP2_exo5_textures.dir/exo5_textures.cpp.o
+.PHONY : exo5_textures.cpp.o
+
+exo5_textures.i: exo5_textures.cpp.i
+
+.PHONY : exo5_textures.i
+
+# target to preprocess a source file
+exo5_textures.cpp.i:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_textures.dir/build.make TP2/CMakeFiles/TP2_exo5_textures.dir/exo5_textures.cpp.i
+.PHONY : exo5_textures.cpp.i
+
+exo5_textures.s: exo5_textures.cpp.s
+
+.PHONY : exo5_textures.s
+
+# target to generate assembly for a file
+exo5_textures.cpp.s:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_textures.dir/build.make TP2/CMakeFiles/TP2_exo5_textures.dir/exo5_textures.cpp.s
+.PHONY : exo5_textures.cpp.s
 
 fromscratch.o: fromscratch.cpp.o
 
@@ -257,7 +341,7 @@ fromscratch.o: fromscratch.cpp.o
 
 # target to build an object file
 fromscratch.cpp.o:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.o
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.o
 .PHONY : fromscratch.cpp.o
 
 fromscratch.i: fromscratch.cpp.i
@@ -266,7 +350,7 @@ fromscratch.i: fromscratch.cpp.i
 
 # target to preprocess a source file
 fromscratch.cpp.i:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.i
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.i
 .PHONY : fromscratch.cpp.i
 
 fromscratch.s: fromscratch.cpp.s
@@ -275,7 +359,7 @@ fromscratch.s: fromscratch.cpp.s
 
 # target to generate assembly for a file
 fromscratch.cpp.s:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.s
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_fromscratch.dir/build.make TP2/CMakeFiles/TP2_fromscratch.dir/fromscratch.cpp.s
 .PHONY : fromscratch.cpp.s
 
 # Help Target
@@ -284,12 +368,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... TP2_fromscratch"
 	@echo "... edit_cache"
-	@echo "... TP2_exo2_shader"
-	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo1_shader"
+	@echo "... TP2_exo2_shader"
+	@echo "... TP2_exo4_matrices"
+	@echo "... rebuild_cache"
+	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo5_textures"
+	@echo "... TP2_fromscratch"
 	@echo "... SDLtemplate.o"
 	@echo "... SDLtemplate.i"
 	@echo "... SDLtemplate.s"
@@ -299,6 +385,12 @@ help:
 	@echo "... exo2_shader.o"
 	@echo "... exo2_shader.i"
 	@echo "... exo2_shader.s"
+	@echo "... exo4_matrices.o"
+	@echo "... exo4_matrices.i"
+	@echo "... exo4_matrices.s"
+	@echo "... exo5_textures.o"
+	@echo "... exo5_textures.i"
+	@echo "... exo5_textures.s"
 	@echo "... fromscratch.o"
 	@echo "... fromscratch.i"
 	@echo "... fromscratch.s"
@@ -313,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

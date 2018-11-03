@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TP2/exo2_shader.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP2/exo2_shader.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h

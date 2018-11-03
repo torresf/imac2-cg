@@ -5,7 +5,7 @@ layout(location = 1) in vec2 aVertexTexture;
 
 out vec2 vFragTexture;
 
-uniform float uTime;
+uniform mat3 uModelMatrix;
 
 mat3 rotate(float a) {
 	a = radians(a);
@@ -14,5 +14,5 @@ mat3 rotate(float a) {
 
 void main() {
 	vFragTexture = aVertexTexture;
-	gl_Position = vec4((rotate(uTime) * vec3(aVertexPosition, 1)).xy, 0, 1);
+	gl_Position = vec4((uModelMatrix * vec3(aVertexPosition, 1)).xy, 0, 1);
 };

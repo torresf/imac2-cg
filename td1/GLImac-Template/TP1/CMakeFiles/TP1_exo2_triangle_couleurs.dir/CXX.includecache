@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TP1/exo2_triangle_couleurs.cpp
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP1/exo2_triangle_couleurs.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h

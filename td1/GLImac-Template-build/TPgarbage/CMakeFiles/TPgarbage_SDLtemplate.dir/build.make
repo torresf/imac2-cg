@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template
+CMAKE_SOURCE_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build
 
 # Include any dependencies generated for this target.
 include TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend.make
@@ -58,17 +58,17 @@ include TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/progress.make
 include TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/flags.make
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/flags.make
-TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o: /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o"
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp
+TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o: /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o"
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.i"
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp > CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp > CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.i
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.s"
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp -o CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/SDLtemplate.cpp -o CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.s
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/SDLtemplate.cpp.o.requires:
 
@@ -93,11 +93,13 @@ TPgarbage/TPgarbage_SDLtemplate: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/
 TPgarbage/TPgarbage_SDLtemplate: glimac/libglimac.a
 TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libSDL.so
-TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGL.so.1
+TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGLX.so
+TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGLU.so
 TPgarbage/TPgarbage_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGLEW.so
 TPgarbage/TPgarbage_SDLtemplate: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TPgarbage_SDLtemplate"
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TPgarbage_SDLtemplate.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TPgarbage_SDLtemplate"
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TPgarbage_SDLtemplate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build: TPgarbage/TPgarbage_SDLtemplate
@@ -109,10 +111,10 @@ TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/requires: TPgarbage/CMakeFiles/TP
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/requires
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && $(CMAKE_COMMAND) -P CMakeFiles/TPgarbage_SDLtemplate.dir/cmake_clean.cmake
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage && $(CMAKE_COMMAND) -P CMakeFiles/TPgarbage_SDLtemplate.dir/cmake_clean.cmake
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/clean
 
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend:
-	cd /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage /home/ftorres/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend
 
