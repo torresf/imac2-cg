@@ -21,6 +21,9 @@
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_SDLtemplate.dir
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_exo5_textures.dir
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/CMakeFiles/TP2_fromscratch.dir
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP6/CMakeFiles/rebuild_cache.dir
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP6/CMakeFiles/TP6_exo1_sphere.dir
+/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP6/CMakeFiles/edit_cache.dir
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
 /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir

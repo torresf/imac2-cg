@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/CMakeLists.txt"
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP1/CMakeLists.txt"
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP2/CMakeLists.txt"
+  "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP6/CMakeLists.txt"
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/TPgarbage/CMakeLists.txt"
   "/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template/glimac/CMakeLists.txt"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "glimac/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TPgarbage/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -76,6 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo5_textures.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_fromscratch.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake"
   )

@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/glimac/cmake_install.cmake")
   include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP1/cmake_install.cmake")
   include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP2/cmake_install.cmake")
+  include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP6/cmake_install.cmake")
   include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TP_template/cmake_install.cmake")
   include("/home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build/TPgarbage/cmake_install.cmake")
 
