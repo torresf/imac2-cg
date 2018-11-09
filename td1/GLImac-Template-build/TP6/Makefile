@@ -125,6 +125,21 @@ TP6_exo1_sphere/fast:
 	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/build
 .PHONY : TP6_exo1_sphere/fast
 
+# Convenience name for target.
+TP6/CMakeFiles/TP6_exo2_lune.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+.PHONY : TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+
+# Convenience name for target.
+TP6_exo2_lune: TP6/CMakeFiles/TP6_exo2_lune.dir/rule
+
+.PHONY : TP6_exo2_lune
+
+# fast build rule for target.
+TP6_exo2_lune/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
+.PHONY : TP6_exo2_lune/fast
+
 exo1_sphere.o: exo1_sphere.cpp.o
 
 .PHONY : exo1_sphere.o
@@ -152,6 +167,33 @@ exo1_sphere.cpp.s:
 	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/exo1_sphere.cpp.s
 .PHONY : exo1_sphere.cpp.s
 
+exo2_lune.o: exo2_lune.cpp.o
+
+.PHONY : exo2_lune.o
+
+# target to build an object file
+exo2_lune.cpp.o:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.o
+.PHONY : exo2_lune.cpp.o
+
+exo2_lune.i: exo2_lune.cpp.i
+
+.PHONY : exo2_lune.i
+
+# target to preprocess a source file
+exo2_lune.cpp.i:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.i
+.PHONY : exo2_lune.cpp.i
+
+exo2_lune.s: exo2_lune.cpp.s
+
+.PHONY : exo2_lune.s
+
+# target to generate assembly for a file
+exo2_lune.cpp.s:
+	cd /home/torresf/Documents/CG/imac2-cg/td1/GLImac-Template-build && $(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/exo2_lune.cpp.s
+.PHONY : exo2_lune.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,11 +201,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP6_exo1_sphere"
 	@echo "... edit_cache"
+	@echo "... TP6_exo1_sphere"
+	@echo "... TP6_exo2_lune"
 	@echo "... exo1_sphere.o"
 	@echo "... exo1_sphere.i"
 	@echo "... exo1_sphere.s"
+	@echo "... exo2_lune.o"
+	@echo "... exo2_lune.i"
+	@echo "... exo2_lune.s"
 .PHONY : help
 
 

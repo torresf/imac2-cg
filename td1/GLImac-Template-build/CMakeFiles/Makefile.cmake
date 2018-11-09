@@ -79,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP2/CMakeFiles/TP2_exo5_textures.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_fromscratch.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo2_lune.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   "TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/DependInfo.cmake"
   )

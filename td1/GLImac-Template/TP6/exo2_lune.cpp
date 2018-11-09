@@ -2,6 +2,7 @@
 #include <glimac/Sphere.hpp>
 #include <glimac/FilePath.hpp>
 #include <glimac/Program.hpp>
+#include <glm/gtc/random.hpp>
 #include <GL/glew.h>
 #include <iostream>
 
@@ -77,6 +78,13 @@ int main(int argc, char** argv) {
     // Débinding du VAO
     glBindVertexArray(0);
 
+    int nbLunes = 32;
+    std::vector<glm::vec3> randomTransform;
+    for (int i = 0; i < nbLunes-1; ++i)
+    {
+        randomTransform.push_back(glm::sphericalRand(2.f));
+    }
+
     // Application loop:
     bool done = false;
     while(!done) {
@@ -92,7 +100,8 @@ int main(int argc, char** argv) {
          * HERE SHOULD COME THE RENDERING CODE
          *********************************/
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        
+
+        MVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, 0, -5)); // Translation
         glUniformMatrix4fv(MVPMatrixLocation, 1, GL_FALSE, glm::value_ptr(ProjMatrix * MVMatrix));
         glUniformMatrix4fv(MVMatrixLocation, 1, GL_FALSE, glm::value_ptr(MVMatrix));
         glUniformMatrix4fv(NormalMatrixLocation, 1, GL_FALSE, glm::value_ptr(NormalMatrix));
@@ -100,6 +109,23 @@ int main(int argc, char** argv) {
         // Drawing Code
         glBindVertexArray(vao);
         glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
+
+        // Dessin des lunes
+        for (int i = 0; i < nbLunes; ++i)
+        {
+            // Transformations nécessaires pour la Lune
+            MVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, 0, -5)); // Translation
+            MVMatrix = glm::rotate(MVMatrix, (1+randomTransform[i][0]+randomTransform[i][1]+randomTransform[i][2]) * windowManager.getTime(), glm::cross(glm::vec3(1, 1, 1), randomTransform[i])); // Translation * Rotation
+            MVMatrix = glm::translate(MVMatrix, randomTransform[i]); // Translation * Rotation * Translation
+            MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2, 0.2, 0.2)); // Translation * Rotation * Translation * Scale
+
+            glUniformMatrix4fv(MVPMatrixLocation, 1, GL_FALSE, glm::value_ptr(ProjMatrix * MVMatrix));
+            glUniformMatrix4fv(MVMatrixLocation, 1, GL_FALSE, glm::value_ptr(MVMatrix));
+            glUniformMatrix4fv(NormalMatrixLocation, 1, GL_FALSE, glm::value_ptr(NormalMatrix));
+
+            glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
+        }
+
         glBindVertexArray(0);
 
         // Update the display

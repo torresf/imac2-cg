@@ -319,6 +319,19 @@ TP6_exo1_sphere/fast:
 .PHONY : TP6_exo1_sphere/fast
 
 #=============================================================================
+# Target rules for targets named TP6_exo2_lune
+
+# Build rule for target.
+TP6_exo2_lune: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo2_lune
+.PHONY : TP6_exo2_lune
+
+# fast build rule for target.
+TP6_exo2_lune/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo2_lune.dir/build.make TP6/CMakeFiles/TP6_exo2_lune.dir/build
+.PHONY : TP6_exo2_lune/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -368,6 +381,7 @@ help:
 	@echo "... TP2_exo5_textures"
 	@echo "... TP2_fromscratch"
 	@echo "... TP6_exo1_sphere"
+	@echo "... TP6_exo2_lune"
 	@echo "... TP_template_SDLtemplate"
 	@echo "... TPgarbage_SDLtemplate"
 .PHONY : help
