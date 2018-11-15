@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP6_exo3_multishaders.dir/exo3_multishaders.cpp.o  -o TP6_exo3_multishaders ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lOpenGL -lGLX -lGLU -lGLEW 

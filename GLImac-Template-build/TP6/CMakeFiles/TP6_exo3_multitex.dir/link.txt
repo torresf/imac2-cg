@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP6_exo3_multitex.dir/exo3_multitex.cpp.o  -o TP6_exo3_multitex ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lOpenGL -lGLX -lGLU -lGLEW 
