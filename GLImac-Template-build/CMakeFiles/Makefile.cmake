@@ -84,6 +84,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP6/CMakeFiles/TP6_exo4_multishaders.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo2_lune.dir/DependInfo.cmake"
+  "TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_SDLtemplate.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"

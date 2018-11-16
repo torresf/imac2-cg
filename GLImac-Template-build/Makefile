@@ -358,6 +358,19 @@ TP6_exo2_lune/fast:
 .PHONY : TP6_exo2_lune/fast
 
 #=============================================================================
+# Target rules for targets named TP7_exo2_freefly_camera
+
+# Build rule for target.
+TP7_exo2_freefly_camera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP7_exo2_freefly_camera
+.PHONY : TP7_exo2_freefly_camera
+
+# fast build rule for target.
+TP7_exo2_freefly_camera/fast:
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build
+.PHONY : TP7_exo2_freefly_camera/fast
+
+#=============================================================================
 # Target rules for targets named TP7_SDLtemplate
 
 # Build rule for target.
@@ -436,6 +449,7 @@ help:
 	@echo "... TP6_exo4_multishaders"
 	@echo "... TP6_exo1_sphere"
 	@echo "... TP6_exo2_lune"
+	@echo "... TP7_exo2_freefly_camera"
 	@echo "... TP7_SDLtemplate"
 	@echo "... TP7_exo1_trackball_camera"
 	@echo "... TP_template_SDLtemplate"

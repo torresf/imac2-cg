@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule:
+	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule
+.PHONY : TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule
+
+# Convenience name for target.
+TP7_exo2_freefly_camera: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule
+
+.PHONY : TP7_exo2_freefly_camera
+
+# fast build rule for target.
+TP7_exo2_freefly_camera/fast:
+	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build
+.PHONY : TP7_exo2_freefly_camera/fast
+
+# Convenience name for target.
 TP7/CMakeFiles/TP7_SDLtemplate.dir/rule:
 	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP7/CMakeFiles/TP7_SDLtemplate.dir/rule
 .PHONY : TP7/CMakeFiles/TP7_SDLtemplate.dir/rule
@@ -194,6 +209,33 @@ exo1_trackball_camera.cpp.s:
 	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/build.make TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/exo1_trackball_camera.cpp.s
 .PHONY : exo1_trackball_camera.cpp.s
 
+exo2_freefly_camera.o: exo2_freefly_camera.cpp.o
+
+.PHONY : exo2_freefly_camera.o
+
+# target to build an object file
+exo2_freefly_camera.cpp.o:
+	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/exo2_freefly_camera.cpp.o
+.PHONY : exo2_freefly_camera.cpp.o
+
+exo2_freefly_camera.i: exo2_freefly_camera.cpp.i
+
+.PHONY : exo2_freefly_camera.i
+
+# target to preprocess a source file
+exo2_freefly_camera.cpp.i:
+	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/exo2_freefly_camera.cpp.i
+.PHONY : exo2_freefly_camera.cpp.i
+
+exo2_freefly_camera.s: exo2_freefly_camera.cpp.s
+
+.PHONY : exo2_freefly_camera.s
+
+# target to generate assembly for a file
+exo2_freefly_camera.cpp.s:
+	cd /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build && $(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/exo2_freefly_camera.cpp.s
+.PHONY : exo2_freefly_camera.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +244,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TP7_exo2_freefly_camera"
 	@echo "... TP7_SDLtemplate"
 	@echo "... TP7_exo1_trackball_camera"
 	@echo "... SDLtemplate.o"
@@ -210,6 +253,9 @@ help:
 	@echo "... exo1_trackball_camera.o"
 	@echo "... exo1_trackball_camera.i"
 	@echo "... exo1_trackball_camera.s"
+	@echo "... exo2_freefly_camera.o"
+	@echo "... exo2_freefly_camera.i"
+	@echo "... exo2_freefly_camera.s"
 .PHONY : help
 
 

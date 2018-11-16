@@ -29,6 +29,7 @@
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP6/CMakeFiles/TP6_exo2_lune.dir
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP7/CMakeFiles/rebuild_cache.dir
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP7/CMakeFiles/edit_cache.dir
+/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP7/CMakeFiles/TP7_exo2_freefly_camera.dir
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP7/CMakeFiles/TP7_SDLtemplate.dir
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP7/CMakeFiles/TP7_exo1_trackball_camera.dir
 /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir

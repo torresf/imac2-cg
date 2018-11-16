@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/torresf/Documents/CG/imac2-cg/GLImac-Template/glimac/src/Cone.cpp" "/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o"
+  "/home/torresf/Documents/CG/imac2-cg/GLImac-Template/glimac/src/FreeflyCamera.cpp" "/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/FreeflyCamera.cpp.o"
   "/home/torresf/Documents/CG/imac2-cg/GLImac-Template/glimac/src/Geometry.cpp" "/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
   "/home/torresf/Documents/CG/imac2-cg/GLImac-Template/glimac/src/Image.cpp" "/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
   "/home/torresf/Documents/CG/imac2-cg/GLImac-Template/glimac/src/Program.cpp" "/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"

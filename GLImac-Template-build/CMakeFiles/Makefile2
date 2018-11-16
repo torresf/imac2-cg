@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
@@ -163,7 +163,7 @@ all: TP1/CMakeFiles/TP1_exo5_disque_ibo.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo5_disque_ibo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disque_ibo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo5_disque_ibo.dir/rule
@@ -200,7 +200,7 @@ all: TP1/CMakeFiles/TP1_exo5_disque.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo5_disque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disque.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo5_disque.dir/rule
@@ -237,7 +237,7 @@ all: TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
@@ -274,7 +274,7 @@ all: TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
@@ -311,7 +311,7 @@ all: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
@@ -348,7 +348,7 @@ all: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
@@ -385,7 +385,7 @@ all: TP1/CMakeFiles/TP1_exo4_quad.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo4_quad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad.dir/rule
@@ -422,7 +422,7 @@ all: TP1/CMakeFiles/TP1_exo4_quad_ibo.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo4_quad_ibo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad_ibo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad_ibo.dir/rule
@@ -487,7 +487,7 @@ all: TP2/CMakeFiles/TP2_exo1_shader.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo1_shader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo1_shader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo1_shader.dir/rule
@@ -524,7 +524,7 @@ all: TP2/CMakeFiles/TP2_exo2_shader.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo2_shader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_shader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo2_shader.dir/rule
@@ -561,7 +561,7 @@ all: TP2/CMakeFiles/TP2_exo4_matrices.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo4_matrices.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4_matrices.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo4_matrices.dir/rule
@@ -598,7 +598,7 @@ all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
@@ -635,7 +635,7 @@ all: TP2/CMakeFiles/TP2_exo5_textures.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo5_textures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo5_textures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo5_textures.dir/rule
@@ -672,7 +672,7 @@ all: TP2/CMakeFiles/TP2_fromscratch.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_fromscratch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_fromscratch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_fromscratch.dir/rule
@@ -733,7 +733,7 @@ all: TP6/CMakeFiles/TP6_exo3_multitex.dir/all
 
 # Build rule for subdir invocation for target.
 TP6/CMakeFiles/TP6_exo3_multitex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo3_multitex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP6/CMakeFiles/TP6_exo3_multitex.dir/rule
@@ -770,7 +770,7 @@ all: TP6/CMakeFiles/TP6_exo4_multishaders.dir/all
 
 # Build rule for subdir invocation for target.
 TP6/CMakeFiles/TP6_exo4_multishaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo4_multishaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP6/CMakeFiles/TP6_exo4_multishaders.dir/rule
@@ -807,7 +807,7 @@ all: TP6/CMakeFiles/TP6_exo1_sphere.dir/all
 
 # Build rule for subdir invocation for target.
 TP6/CMakeFiles/TP6_exo1_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo1_sphere.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP6/CMakeFiles/TP6_exo1_sphere.dir/rule
@@ -844,7 +844,7 @@ all: TP6/CMakeFiles/TP6_exo2_lune.dir/all
 
 # Build rule for subdir invocation for target.
 TP6/CMakeFiles/TP6_exo2_lune.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo2_lune.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP6/CMakeFiles/TP6_exo2_lune.dir/rule
@@ -868,12 +868,14 @@ clean: TP6/CMakeFiles/TP6_exo2_lune.dir/clean
 # Directory level rules for directory TP7
 
 # Convenience name for "all" pass in the directory.
+TP7/all: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/all
 TP7/all: TP7/CMakeFiles/TP7_SDLtemplate.dir/all
 TP7/all: TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/all
 
 .PHONY : TP7/all
 
 # Convenience name for "clean" pass in the directory.
+TP7/clean: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/clean
 TP7/clean: TP7/CMakeFiles/TP7_SDLtemplate.dir/clean
 TP7/clean: TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/clean
 
@@ -883,6 +885,43 @@ TP7/clean: TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/clean
 TP7/preinstall:
 
 .PHONY : TP7/preinstall
+
+#=============================================================================
+# Target rules for target TP7/CMakeFiles/TP7_exo2_freefly_camera.dir
+
+# All Build rule for target.
+TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/depend
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TP7_exo2_freefly_camera"
+.PHONY : TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/all
+
+# Include target in all.
+all: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule
+
+# Convenience name for target.
+TP7_exo2_freefly_camera: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/rule
+
+.PHONY : TP7_exo2_freefly_camera
+
+# clean rule for target.
+TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/clean:
+	$(MAKE) -f TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/build.make TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/clean
+.PHONY : TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/clean
+
+# clean rule for target.
+clean: TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target TP7/CMakeFiles/TP7_SDLtemplate.dir
@@ -901,7 +940,7 @@ all: TP7/CMakeFiles/TP7_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP7/CMakeFiles/TP7_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP7/CMakeFiles/TP7_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP7/CMakeFiles/TP7_SDLtemplate.dir/rule
@@ -938,7 +977,7 @@ all: TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/all
 
 # Build rule for subdir invocation for target.
 TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/rule
@@ -983,7 +1022,7 @@ TP_template/preinstall:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=43,44 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.
@@ -993,7 +1032,7 @@ all: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
@@ -1038,7 +1077,7 @@ TPgarbage/preinstall:
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/depend
 	$(MAKE) -f TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build.make TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=43,44 "Built target TPgarbage_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles --progress-num=45,46 "Built target TPgarbage_SDLtemplate"
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 
 # Include target in all.
@@ -1048,7 +1087,7 @@ all: TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/torresf/Documents/CG/imac2-cg/GLImac-Template-build/CMakeFiles 0
 .PHONY : TPgarbage/CMakeFiles/TPgarbage_SDLtemplate.dir/rule

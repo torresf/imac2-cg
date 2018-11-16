@@ -126,9 +126,7 @@ int main(int argc, char** argv) {
 	int nbLunes = 32;
 	std::vector<glm::vec3> randomTransform;
 	for (int i = 0; i < nbLunes-1; ++i)
-	{
 		randomTransform.push_back(glm::sphericalRand(2.f));
-	}
 
 	// Application loop:
 	bool done = false;

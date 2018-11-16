@@ -3,7 +3,7 @@
 #include <glimac/FilePath.hpp>
 #include <glimac/Program.hpp>
 #include <glimac/Image.hpp>
-#include <glimac/TrackballCamera.hpp>
+#include <glimac/FreeflyCamera.hpp>
 #include <glm/gtc/random.hpp>
 #include <GL/glew.h>
 #include <iostream>
@@ -194,10 +194,10 @@ int main(int argc, char** argv) {
 	}
 
 	// Création de la caméra
-	TrackballCamera camera;
+	FreeflyCamera camera;
 
-	float zoom = 1.0f;
-	float speed = .5f;
+	float speed = 1.0f;
+	float rotateSpeed = 1.0f;
 
 	// Application loop:
 	bool done = false;
@@ -214,22 +214,32 @@ int main(int argc, char** argv) {
 						case SDLK_ESCAPE:
 							done = true;
 							break;
-						case SDLK_UP:
-							camera.moveFront(zoom);
+						case SDLK_z:
+							// Avancer
+							camera.moveFront(speed);
 							break;
-						case SDLK_DOWN:
-							camera.moveFront(-zoom);
+						case SDLK_s:
+							// Reculer
+							camera.moveFront(-speed);
+							break;
+						case SDLK_q:
+							// Gauche
+							camera.moveLeft(speed);
+							break;
+						case SDLK_d:
+							// Droite
+							camera.moveLeft(-speed);
 							break;
 						default:
 							break;
 					}
 					break;
 				case SDL_MOUSEMOTION:
-					if (windowManager.isMouseButtonPressed(SDL_BUTTON_LEFT)) {
+					if (windowManager.isMouseButtonPressed(SDL_BUTTON_RIGHT)) {
 						if (e.motion.xrel != 0)
-							camera.rotateUp(e.motion.xrel * speed);
+							camera.rotateLeft(e.motion.xrel * rotateSpeed);
 						if (e.motion.yrel != 0)
-							camera.rotateLeft(e.motion.yrel * speed);
+							camera.rotateUp(e.motion.yrel * rotateSpeed);
 						break;
 					}
 				default:
@@ -252,6 +262,8 @@ int main(int argc, char** argv) {
 
 		globalMVMatrix = camera.getViewMatrix();
 
+		// std::cout << globalMVMatrix << std::endl;
+
 		glm::mat4 earthMVMatrix = glm::rotate(globalMVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0)); // Translation * Rotation
 
 		glUniformMatrix4fv(earthProgram.uMVMatrix, 1, GL_FALSE, 
@@ -268,16 +280,17 @@ int main(int argc, char** argv) {
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, textures[2]); // la texture cloudTexture est bindée sur l'unité GL_TEXTURE1
 
-		// Dessin de la terre
+		// Dessin de la terreglm::cross(glm::vec3(1, 1, 1), randomTransform[i]
 		glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
-
+		
 		// Dessin des lunes
 		moonProgram.m_Program.use();
 
 		for (int i = 0; i < nbLunes; ++i)
 		{
-			// Transformations nécessaires pour la Lune
-			glm::mat4 moonMVMatrix = glm::rotate(globalMVMatrix, (1+randomTransform[i][0]+randomTransform[i][1]+randomTransform[i][2]) * windowManager.getTime(), glm::cross(glm::vec3(1, 1, 1), randomTransform[i])); // Translation * Rotation
+			// Transformations nécessaires pour les Lune
+			glm::mat4 moonMVMatrix = glm::mat4();
+			moonMVMatrix = glm::rotate(globalMVMatrix, (1+randomTransform[i][0]+randomTransform[i][1]+randomTransform[i][2]) * windowManager.getTime(), glm::cross(glm::vec3(1, 1, 1), randomTransform[i])); // Translation * Rotation
 			moonMVMatrix = glm::translate(moonMVMatrix, randomTransform[i]); // Translation * Rotation * Translation
 			moonMVMatrix = glm::scale(moonMVMatrix, glm::vec3(0.2, 0.2, 0.2)); // Translation * Rotation * Translation * Scale
 
