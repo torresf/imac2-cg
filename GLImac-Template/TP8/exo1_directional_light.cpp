@@ -175,8 +175,6 @@ int main(int argc, char** argv) {
 
 		earthProgram.m_Program.use();
 
-		// globalMVMatrix = glm::translate(glm::mat4(1), glm::vec3(0, 0, -5)); // Translation
-
 		globalMVMatrix = camera.getViewMatrix();
 
 		glm::mat4 earthMVMatrix = glm::rotate(globalMVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0)); // Translation * Rotation
@@ -188,8 +186,13 @@ int main(int argc, char** argv) {
 		glUniformMatrix4fv(earthProgram.uMVPMatrix, 1, GL_FALSE, 
 			glm::value_ptr(projMatrix * earthMVMatrix));
 
+
+		// Gestion de la lumière
+		glm::mat4 lightMVMatrix = glm::rotate(globalMVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0)); // Translation * Rotation
+		glm::vec3 lightDir_vs(lightMVMatrix * glm::vec4(1, 1, 1, 0));
+
 		glUniform3f(uLightIntensity, 1, .5f, .5f);
-		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(glm::vec3(1,1,1)));
+		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(lightDir_vs));
 		glUniform3f(uKd, 0, 0, 1.f);
 		glUniform3f(uKs, 1.f, 0.f, 1.f);
 		glUniform1f(uShininess, 2);
@@ -216,11 +219,11 @@ int main(int argc, char** argv) {
 			glUniformMatrix4fv(moonProgram.uMVPMatrix, 1, GL_FALSE, 
 				glm::value_ptr(projMatrix * moonMVMatrix));
 
-			glUniform3f(uLightIntensity, 1 - randomColor[i], 1 - randomColor[i], 1 - randomColor[i]);
-			glUniform3fv(uLightDir_vs, 1, glm::value_ptr(glm::vec3(1.f,1.f,1.f)));
-			glUniform3f(uKd, randomColor[i], 0, .5f);
-			glUniform3f(uKs, .8f, .15f, 0);
-			glUniform1f(uShininess, 1+randomColor[i]);
+			glUniform3f(uLightIntensity, .25, .25, .25);
+			glUniform3fv(uLightDir_vs, 1, glm::value_ptr(lightDir_vs));
+			glUniform3f(uKd, .1, 0, 1);
+			glUniform3f(uKs, randomColor[i], .05, .2);
+			glUniform1f(uShininess, 1);
 
 			glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
 		}
