@@ -186,6 +186,10 @@ int main(int argc, char** argv) {
 		glUniformMatrix4fv(earthProgram.uMVPMatrix, 1, GL_FALSE, 
 			glm::value_ptr(projMatrix * earthMVMatrix));
 
+		glBindVertexArray(vao);
+
+		// Dessin de la terre
+		glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
 
 		// Gestion de la lumière
 		glm::mat4 lightMVMatrix = glm::rotate(globalMVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0)); // Translation * Rotation
@@ -193,14 +197,9 @@ int main(int argc, char** argv) {
 
 		glUniform3f(uLightIntensity, 1, .5f, .5f);
 		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(lightDir_vs));
-		glUniform3f(uKd, 0, 0, 1.f);
-		glUniform3f(uKs, 1.f, 0.f, 1.f);
+		glUniform3f(uKd, 0, 0, 1);
+		glUniform3f(uKs, 1, 0, 1);
 		glUniform1f(uShininess, 2);
-
-		glBindVertexArray(vao);
-
-		// Dessin de la terre
-		glDrawArrays(GL_TRIANGLES, 0, sphere.getVertexCount());
 
 		// Dessin des lunes
 		moonProgram.m_Program.use();
